@@ -1,49 +1,86 @@
 <h1 align="center">Muhammad Mustafa</h1>
-<h3 align="center">QA Lead · Test Automation Engineer · 7+ Years</h3>
+<h3 align="center">Founder, <a href="https://quvantic.com">Quvantic</a> — QA Automation & AI-Powered Testing</h3>
 
 <p align="center">
-  <a href="https://www.upwork.com/freelancers/mustafahameed1"><img src="https://img.shields.io/badge/Upwork-Top%20Rated%20Plus-14a800?style=flat-square&logo=upwork&logoColor=white" /></a>
+  <a href="https://quvantic.com"><img src="https://img.shields.io/badge/Quvantic-quvantic.com-2D7FF9?style=flat-square" /></a>
+  <a href="https://www.upwork.com/agencies/1485310266795913216/"><img src="https://img.shields.io/badge/Upwork-Top%20Rated%20Plus-14a800?style=flat-square&logo=upwork&logoColor=white" /></a>
   <img src="https://img.shields.io/badge/Job%20Success-100%25-14a800?style=flat-square" />
-  <img src="https://img.shields.io/badge/Rate-%2450%2Fhr-0d6efd?style=flat-square" />
-  <img src="https://img.shields.io/badge/Based%20in-Kuala%20Lumpur-ef4444?style=flat-square" />
+  <img src="https://img.shields.io/badge/7%2B%20Years-QA%20%26%20Automation-2D7FF9?style=flat-square" />
 </p>
 
 <p align="center">
-I build test automation frameworks that catch bugs before they reach production.<br/>
-Currently QA Lead at <strong>Respond.io</strong> — scaling quality across web, API, and mobile.
+I build test automation infrastructure that catches bugs before they reach production.<br/>
+Founder of <strong><a href="https://quvantic.com">Quvantic</a></strong> — helping startups and enterprises ship with confidence through QA automation, AI-powered testing, and performance engineering.
 </p>
 
 ---
 
-## What I Build
+## What We Build
 
-| Domain | Tools |
+| Domain | Stack |
 |---|---|
-| **E2E Web Automation** | Playwright · Cypress · TypeScript · POM |
-| **API Testing** | SuperTest · Postman · Zod · Jest |
-| **Performance Testing** | k6 · load · stress · spike · soak |
-| **BDD / Collaboration** | Cucumber · Gherkin · living documentation |
-| **CI/CD Integration** | GitHub Actions · JUnit XML · HTML reports |
-| **Observability** | Custom metrics dashboards · pass rate trending |
+| **E2E Test Automation** | Playwright, Cypress, TypeScript, Page Object Model |
+| **API Testing** | SuperTest, Postman, Zod schema validation, Jest |
+| **Performance Engineering** | k6 — load, stress, spike, soak testing |
+| **AI/LLM Quality Assurance** | Hallucination detection, prompt regression, output validation |
+| **BDD Frameworks** | Cucumber, Gherkin, living documentation |
+| **CI/CD Pipelines** | GitHub Actions, JUnit XML, HTML reporting |
+| **QA Tooling** | Custom dashboards, flaky test detection, test generation |
 
 ---
 
-## Featured Projects
+## Open Source
 
 <table>
 <tr>
 <td width="50%">
 
 ### [playwright-enterprise-framework](https://github.com/mustafaautomation/playwright-enterprise-framework)
-Production-grade Playwright setup with TypeScript, Page Object Model, auth state caching, and multi-browser CI pipelines.
+Enterprise-grade Playwright E2E framework with POM, visual testing, CI/CD pipelines, and parallel execution.
 
-`TypeScript` `Playwright` `GitHub Actions`
+`Playwright` `TypeScript` `POM` `GitHub Actions`
+
+</td>
+<td width="50%">
+
+### [llm-testing-toolkit](https://github.com/mustafaautomation/llm-testing-toolkit)
+Provider-agnostic LLM testing — regression, hallucination detection, quality scoring, and toxicity evaluation.
+
+`TypeScript` `AI Testing` `LLM` `NLP`
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### [ai-testgen](https://github.com/mustafaautomation/ai-testgen)
+AI-powered test case generator — transform PRDs, OpenAPI specs, and user stories into production-ready test suites.
+
+`TypeScript` `OpenAI` `Anthropic` `CLI`
+
+</td>
+<td width="50%">
+
+### [flaky-test-detective](https://github.com/mustafaautomation/flaky-test-detective)
+Detect, track, and quarantine flaky tests with flakiness scoring and pattern analysis.
+
+`TypeScript` `SQLite` `CLI` `Analytics`
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### [api-testing-suite](https://github.com/mustafaautomation/api-testing-suite)
+REST API testing with SuperTest + Jest + Zod schema validation and contract testing.
+
+`SuperTest` `Jest` `Zod` `TypeScript`
 
 </td>
 <td width="50%">
 
 ### [cypress-bdd-starter](https://github.com/mustafaautomation/cypress-bdd-starter)
-Cypress + Cucumber BDD framework with Gherkin feature files, cy.session auth caching, and full CI integration.
+Cypress + Cucumber BDD framework with Gherkin feature files and Page Object Model.
 
 `Cypress` `Cucumber` `BDD` `TypeScript`
 
@@ -52,36 +89,28 @@ Cypress + Cucumber BDD framework with Gherkin feature files, cy.session auth cac
 <tr>
 <td width="50%">
 
-### [api-testing-suite](https://github.com/mustafaautomation/api-testing-suite)
-SuperTest + Jest suite with Zod schema validation, contract testing, data-driven tests, and SLO assertions.
+### [performance-testing-k6](https://github.com/mustafaautomation/performance-testing-k6)
+k6 performance suite — smoke, load, stress, spike, and soak scenarios with SLO thresholds.
 
-`SuperTest` `Jest` `Zod` `TypeScript`
+`k6` `JavaScript` `Performance`
 
 </td>
 <td width="50%">
 
-### [performance-testing-k6](https://github.com/mustafaautomation/performance-testing-k6)
-Full k6 performance suite covering smoke, load, stress, spike, and soak scenarios with shared SLO thresholds.
+### [qa-dash](https://github.com/mustafaautomation/qa-dash)
+Unified QA dashboard — aggregate results from Playwright, Jest, Newman, k6, and JUnit.
 
-`k6` `JavaScript` `Load Testing`
+`TypeScript` `CLI` `Dashboard`
 
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td colspan="2">
 
 ### [qa-metrics-dashboard](https://github.com/mustafaautomation/qa-metrics-dashboard)
-Real-time dashboard that ingests JUnit XML from any test runner and visualises pass rate trends, failures, and suite breakdowns.
+Real-time metrics visualization — pass rate trends, suite breakdowns, failure analysis, and browser coverage.
 
-`Node.js` `Express` `Chart.js` `JUnit XML`
-
-</td>
-<td width="50%">
-
-### [llm-testing-toolkit](https://github.com/mustafaautomation/llm-testing-toolkit)
-Framework for testing LLM-powered applications — prompt regression, output schema validation, and hallucination detection.
-
-`TypeScript` `AI Testing` `LLM`
+`Express` `Chart.js` `JUnit XML` `Tailwind CSS`
 
 </td>
 </tr>
@@ -115,12 +144,11 @@ Framework for testing LLM-powered applications — prompt regression, output sch
 
 ---
 
-## Work With Me
-
-I take on freelance projects through Upwork — API automation, E2E frameworks, CI/CD pipelines, performance testing, and QA strategy.
-
-<p>
-  <a href="https://www.upwork.com/freelancers/mustafahameed1">
-    <img src="https://img.shields.io/badge/Hire%20me%20on%20Upwork-14a800?style=for-the-badge&logo=upwork&logoColor=white" />
+<p align="center">
+  <a href="https://quvantic.com">
+    <img src="https://img.shields.io/badge/Quvantic-Visit%20Website-2D7FF9?style=for-the-badge" />
+  </a>
+  <a href="https://www.upwork.com/agencies/1485310266795913216/">
+    <img src="https://img.shields.io/badge/Hire%20Us%20on%20Upwork-14a800?style=for-the-badge&logo=upwork&logoColor=white" />
   </a>
 </p>
