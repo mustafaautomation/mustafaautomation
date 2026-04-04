@@ -368,12 +368,15 @@ Real-time metrics. Pass rate, trends, coverage.
 
 ---
 
-## GitHub Stats
+## By The Numbers
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mustafaautomation&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mustafaautomation&layout=compact&theme=github_dark&hide_border=true&langs_count=8" height="150" />
-</p>
+| Metric | Value |
+|--------|-------|
+| Public Repos | 32 |
+| Languages | TypeScript, JavaScript, Java, C#, Python, Rust |
+| Test Frameworks | Playwright, Cypress, Selenium, Robot, Jest, Vitest, JUnit, NUnit, k6 |
+| AI Integrations | Claude API, MCP Servers, Claude Code Skills, n8n |
+| All repos | Production-grade with CI, tests, Docker, and documentation |
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=mustafaautomation&theme=github-dark-blue&hide_border=true" height="150" />
