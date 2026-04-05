@@ -5,7 +5,7 @@
   <a href="https://quvantic.com"><img src="https://img.shields.io/badge/Quvantic-quvantic.com-2D7FF9?style=flat-square" /></a>
   <a href="https://www.upwork.com/agencies/1485310266795913216/"><img src="https://img.shields.io/badge/Upwork-Top%20Rated%20Plus-14a800?style=flat-square&logo=upwork&logoColor=white" /></a>
   <img src="https://img.shields.io/badge/Job%20Success-100%25-14a800?style=flat-square" />
-  <img src="https://img.shields.io/badge/30%2B%20Repos-Production%20Grade-2D7FF9?style=flat-square" />
+  <img src="https://img.shields.io/badge/43%2B%20Repos-Production%20Grade-2D7FF9?style=flat-square" />
   <img src="https://img.shields.io/badge/6%20Languages-Polyglot-FF6B35?style=flat-square" />
 </p>
 
@@ -261,6 +261,109 @@ Async load testing CLI. Tokio, percentiles.
 </tr>
 </table>
 
+### Observability, Chaos & CI
+
+<table>
+<tr>
+<td width="33%">
+
+#### [test-observability-platform](https://github.com/mustafaautomation/test-observability-platform)
+10 tests. Ingest 6 frameworks, release readiness scoring.
+
+`TypeScript` `Multi-Framework`
+
+</td>
+<td width="33%">
+
+#### [chaos-testing-toolkit](https://github.com/mustafaautomation/chaos-testing-toolkit)
+11 tests. Inject latency, errors, timeouts between services.
+
+`TypeScript` `Express` `Proxy`
+
+</td>
+<td width="33%">
+
+#### [test-impact-analyzer](https://github.com/mustafaautomation/test-impact-analyzer)
+9 tests. Git diff → run only affected tests.
+
+`TypeScript` `Git` `CI`
+
+</td>
+</tr>
+<tr>
+<td width="33%">
+
+#### [test-retry-analyzer](https://github.com/mustafaautomation/test-retry-analyzer)
+8 tests. Classify retries: bug vs flaky vs infra.
+
+`TypeScript` `CLI`
+
+</td>
+<td width="33%">
+
+#### [http-status-checker](https://github.com/mustafaautomation/http-status-checker)
+11 tests. Parallel health checks before test runs.
+
+`TypeScript` `CLI`
+
+</td>
+<td width="33%">
+
+#### [test-reporting-aggregator](https://github.com/mustafaautomation/test-reporting-aggregator)
+7 tests. Merge Playwright/Jest/JUnit results.
+
+`TypeScript` `CLI`
+
+</td>
+</tr>
+<tr>
+<td width="33%">
+
+#### [docker-test-environments](https://github.com/mustafaautomation/docker-test-environments)
+4 environments: Postgres, full-stack, Redis, MongoDB.
+
+`Docker Compose`
+
+</td>
+<td width="33%">
+
+#### [maestro-mobile-testing](https://github.com/mustafaautomation/maestro-mobile-testing)
+7 YAML flows. Modern mobile testing for Android/iOS.
+
+`Maestro` `YAML`
+
+</td>
+<td width="33%">
+
+#### [appium-mobile-framework](https://github.com/mustafaautomation/appium-mobile-framework)
+7 tests. Cross-platform POM, gesture helpers.
+
+`Appium 2.0` `Java` `TestNG`
+
+</td>
+</tr>
+<tr>
+<td width="33%">
+
+#### [playwright-api-testing](https://github.com/mustafaautomation/playwright-api-testing)
+14 tests. API testing without browser.
+
+`Playwright` `APIRequestContext`
+
+</td>
+<td width="33%">
+
+#### [ai-requirements-analyzer](https://github.com/mustafaautomation/ai-requirements-analyzer)
+11 tests. PRDs → structured test cases via LLM.
+
+`TypeScript` `AI` `CLI`
+
+</td>
+<td width="33%">
+</td>
+</tr>
+</table>
+
 ### QA Infrastructure & Tools
 
 <table>
@@ -372,9 +475,9 @@ Real-time metrics. Pass rate, trends, coverage.
 
 | Metric | Value |
 |--------|-------|
-| Public Repos | 32 |
+| Public Repos | 43+ |
 | Languages | TypeScript, JavaScript, Java, C#, Python, Rust |
-| Test Frameworks | Playwright, Cypress, Selenium, Robot, Jest, Vitest, JUnit, NUnit, k6 |
+| Test Frameworks | Playwright, Cypress, Selenium, Robot, Appium, Maestro, Jest, Vitest, JUnit, NUnit, k6 |
 | AI Integrations | Claude API, MCP Servers, Claude Code Skills, n8n |
 | All repos | Production-grade with CI, tests, Docker, and documentation |
 
