@@ -5,7 +5,7 @@
   <a href="https://quvantic.com"><img src="https://img.shields.io/badge/Quvantic-quvantic.com-2D7FF9?style=flat-square" /></a>
   <a href="https://www.upwork.com/agencies/1485310266795913216/"><img src="https://img.shields.io/badge/Upwork-Top%20Rated%20Plus-14a800?style=flat-square&logo=upwork&logoColor=white" /></a>
   <img src="https://img.shields.io/badge/Job%20Success-100%25-14a800?style=flat-square" />
-  <img src="https://img.shields.io/badge/43%2B%20Repos-Production%20Grade-2D7FF9?style=flat-square" />
+  <img src="https://img.shields.io/badge/44%2B%20Repos-Production%20Grade-2D7FF9?style=flat-square" />
   <img src="https://img.shields.io/badge/6%20Languages-Polyglot-FF6B35?style=flat-square" />
 </p>
 
@@ -27,7 +27,7 @@ I don't just test software — I transform how entire organizations ship quality
 
 ---
 
-## Open Source — 32 Production-Grade Repos
+## Open Source — 44 Production-Grade Repos
 
 ### QA & Test Automation
 
@@ -200,6 +200,18 @@ AI test case generator from PRDs and OpenAPI specs.
 
 `TypeScript` `Claude` `OpenAI` `v2.0.0`
 
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+#### [llm-testing-toolkit](https://github.com/mustafaautomation/llm-testing-toolkit)
+Provider-agnostic LLM testing — regression, hallucination, quality, toxicity.
+
+`TypeScript` `OpenAI` `Anthropic`
+
+</td>
+<td width="50%">
 </td>
 </tr>
 </table>
@@ -475,7 +487,7 @@ Real-time metrics. Pass rate, trends, coverage.
 
 | Metric | Value |
 |--------|-------|
-| Public Repos | 43+ |
+| Public Repos | 44+ |
 | Languages | TypeScript, JavaScript, Java, C#, Python, Rust |
 | Test Frameworks | Playwright, Cypress, Selenium, Robot, Appium, Maestro, Jest, Vitest, JUnit, NUnit, k6 |
 | AI Integrations | Claude API, MCP Servers, Claude Code Skills, n8n |
