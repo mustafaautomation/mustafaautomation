@@ -1,509 +1,74 @@
-<h1 align="center">Muhammad Mustafa</h1>
-<h3 align="center">Founder, <a href="https://quvantic.com">Quvantic</a> — QA Automation, AI Enablement & Org-Level Transformation</h3>
-
-<p align="center">
-  <a href="https://quvantic.com"><img src="https://img.shields.io/badge/Quvantic-quvantic.com-2D7FF9?style=flat-square" /></a>
-  <a href="https://www.upwork.com/agencies/1485310266795913216/"><img src="https://img.shields.io/badge/Upwork-Top%20Rated%20Plus-14a800?style=flat-square&logo=upwork&logoColor=white" /></a>
-  <img src="https://img.shields.io/badge/Job%20Success-100%25-14a800?style=flat-square" />
-  <img src="https://img.shields.io/badge/44%2B%20Repos-Production%20Grade-2D7FF9?style=flat-square" />
-  <img src="https://img.shields.io/badge/6%20Languages-Polyglot-FF6B35?style=flat-square" />
-</p>
-
-<p align="center">
-I don't just test software — I transform how entire organizations ship quality.<br/>
-<strong>QA Automation</strong> across 6 languages. <strong>AI Enablement</strong> with Claude, MCP servers, and n8n. <strong>Enterprise-grade</strong> — not demos, not tutorials. Real tools that real teams use.
-</p>
-
----
-
-## What I Do
-
-| Domain | What You Get |
-|---|---|
-| **QA Test Automation** | E2E, API, performance, visual, accessibility, security testing — across TypeScript, Java, C#, Python, Rust |
-| **AI Enablement** | Claude Code skills, MCP servers, AI code review bots, agentic test generation with self-healing |
-| **Workflow Automation** | n8n enterprise workflows, CI/CD pipeline templates, GitHub Actions for every stack |
-| **Org-Level AI Shift** | Take your entire engineering org from manual → AI-powered workflows |
-
----
-
-## Open Source — 44 Production-Grade Repos
-
-### QA & Test Automation
-
-<table>
-<tr>
-<td width="50%">
-
-#### [playwright-enterprise-framework](https://github.com/mustafaautomation/playwright-enterprise-framework)
-54 tests, 159 runs. POM, test.step(), faker, Allure, Docker.
-
-`Playwright` `TypeScript` `v2.0.0`
-
-</td>
-<td width="50%">
-
-#### [cypress-bdd-starter](https://github.com/mustafaautomation/cypress-bdd-starter)
-19 BDD scenarios. Cucumber, Gherkin, Page Objects.
-
-`Cypress` `TypeScript` `v2.0.0`
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-#### [selenium-java-framework](https://github.com/mustafaautomation/selenium-java-framework)
-13 tests. TestNG, Allure, ThreadLocal POM, parallel.
-
-`Selenium 4` `Java` `Maven`
-
-</td>
-<td width="50%">
-
-#### [dotnet-playwright-framework](https://github.com/mustafaautomation/dotnet-playwright-framework)
-13 tests. NUnit, FluentAssertions, parallel execution.
-
-`Playwright .NET` `C#` `.NET 8`
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-#### [specflow-bdd-framework](https://github.com/mustafaautomation/specflow-bdd-framework)
-12 Gherkin scenarios. SpecFlow, Selenium, LivingDoc.
-
-`SpecFlow` `C#` `.NET 8`
-
-</td>
-<td width="50%">
-
-#### [robot-framework-enterprise](https://github.com/mustafaautomation/robot-framework-enterprise)
-20 tests. SeleniumLibrary + RequestsLibrary, POM, Docker.
-
-`Robot Framework` `Python`
-
-</td>
-</tr>
-</table>
-
-### API & Integration Testing
-
-<table>
-<tr>
-<td width="33%">
-
-#### [api-testing-suite](https://github.com/mustafaautomation/api-testing-suite)
-41 tests. Factory pattern, retry, request logging.
-
-`SuperTest` `TypeScript` `v2.0.0`
-
-</td>
-<td width="33%">
-
-#### [restassured-api-testing](https://github.com/mustafaautomation/restassured-api-testing)
-12 tests. POJO, schema validation, Allure.
-
-`REST Assured` `Java` `JUnit 5`
-
-</td>
-<td width="33%">
-
-#### [graphql-testing-suite](https://github.com/mustafaautomation/graphql-testing-suite)
-22 tests. Schema validation, response assertions.
-
-`GraphQL` `TypeScript`
-
-</td>
-</tr>
-<tr>
-<td width="33%">
-
-#### [contract-testing-pact](https://github.com/mustafaautomation/contract-testing-pact)
-Consumer + provider verification. PactV4.
-
-`Pact.io` `TypeScript` `Express`
-
-</td>
-<td width="33%">
-
-#### [api-mock-server](https://github.com/mustafaautomation/api-mock-server)
-18 tests. JSON config, dynamic responses, replay.
-
-`Express` `TypeScript` `Docker`
-
-</td>
-<td width="33%">
-
-#### [webhook-tester](https://github.com/mustafaautomation/webhook-tester)
-14 tests. Capture, inspect, replay webhooks.
-
-`Express` `TypeScript` `Docker`
-
-</td>
-</tr>
-</table>
-
-### AI & Claude Ecosystem
-
-<table>
-<tr>
-<td width="50%">
-
-#### [ai-test-orchestrator](https://github.com/mustafaautomation/ai-test-orchestrator)
-5-stage pipeline: generate → validate → execute → analyze → self-heal.
-
-`TypeScript` `AI Pipeline` `Self-Healing`
-
-</td>
-<td width="50%">
-
-#### [ai-code-reviewer](https://github.com/mustafaautomation/ai-code-reviewer)
-Claude API reviews PRs, posts severity-rated findings.
-
-`Claude API` `Express` `GitHub Webhooks`
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-#### [mcp-server-toolkit](https://github.com/mustafaautomation/mcp-server-toolkit)
-4 MCP servers: GitHub, Jira, PostgreSQL, Slack. 13 tools.
-
-`MCP SDK` `TypeScript` `Claude`
-
-</td>
-<td width="50%">
-
-#### [claude-code-skills](https://github.com/mustafaautomation/claude-code-skills)
-6 skills: PR review, test gen, docs, migration, audit, DB.
-
-`Claude Code` `Enterprise Skills`
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-#### [agentic-test-runner](https://github.com/mustafaautomation/agentic-test-runner)
-Natural language → Playwright tests via LLM.
-
-`TypeScript` `AI` `Playwright`
-
-</td>
-<td width="50%">
-
-#### [ai-testgen](https://github.com/mustafaautomation/ai-testgen)
-AI test case generator from PRDs and OpenAPI specs.
-
-`TypeScript` `Claude` `OpenAI` `v2.0.0`
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-#### [llm-testing-toolkit](https://github.com/mustafaautomation/llm-testing-toolkit)
-Provider-agnostic LLM testing — regression, hallucination, quality, toxicity.
-
-`TypeScript` `OpenAI` `Anthropic`
-
-</td>
-<td width="50%">
-</td>
-</tr>
-</table>
-
-### Performance, Security & Specialized
-
-<table>
-<tr>
-<td width="33%">
-
-#### [performance-testing-k6](https://github.com/mustafaautomation/performance-testing-k6)
-5 test suites. Smoke, load, stress, spike, soak.
-
-`k6` `JavaScript` `v2.0.0`
-
-</td>
-<td width="33%">
-
-#### [rust-load-tester](https://github.com/mustafaautomation/rust-load-tester)
-Async load testing CLI. Tokio, percentiles.
-
-`Rust` `Tokio` `reqwest`
-
-</td>
-<td width="33%">
-
-#### [security-testing-pipeline](https://github.com/mustafaautomation/security-testing-pipeline)
-17 tests. SAST, dependency audit, secret detection.
-
-`TypeScript` `Semgrep` `npm audit`
-
-</td>
-</tr>
-<tr>
-<td width="33%">
-
-#### [a11y-audit-engine](https://github.com/mustafaautomation/a11y-audit-engine)
-18 tests. WCAG 2.2 compliance, axe-core.
-
-`TypeScript` `axe-core` `Playwright`
-
-</td>
-<td width="33%">
-
-#### [visual-regression-toolkit](https://github.com/mustafaautomation/visual-regression-toolkit)
-11 tests. Pixel comparison, HTML reports.
-
-`TypeScript` `pixelmatch`
-
-</td>
-<td width="33%">
-
-#### [schema-drift-detector](https://github.com/mustafaautomation/schema-drift-detector)
-11 tests. Breaking change detection for APIs.
-
-`TypeScript` `OpenAPI`
-
-</td>
-</tr>
-</table>
-
-### Observability, Chaos & CI
-
-<table>
-<tr>
-<td width="33%">
-
-#### [test-observability-platform](https://github.com/mustafaautomation/test-observability-platform)
-10 tests. Ingest 6 frameworks, release readiness scoring.
-
-`TypeScript` `Multi-Framework`
-
-</td>
-<td width="33%">
-
-#### [chaos-testing-toolkit](https://github.com/mustafaautomation/chaos-testing-toolkit)
-11 tests. Inject latency, errors, timeouts between services.
-
-`TypeScript` `Express` `Proxy`
-
-</td>
-<td width="33%">
-
-#### [test-impact-analyzer](https://github.com/mustafaautomation/test-impact-analyzer)
-9 tests. Git diff → run only affected tests.
-
-`TypeScript` `Git` `CI`
-
-</td>
-</tr>
-<tr>
-<td width="33%">
-
-#### [test-retry-analyzer](https://github.com/mustafaautomation/test-retry-analyzer)
-8 tests. Classify retries: bug vs flaky vs infra.
-
-`TypeScript` `CLI`
-
-</td>
-<td width="33%">
-
-#### [http-status-checker](https://github.com/mustafaautomation/http-status-checker)
-11 tests. Parallel health checks before test runs.
-
-`TypeScript` `CLI`
-
-</td>
-<td width="33%">
-
-#### [test-reporting-aggregator](https://github.com/mustafaautomation/test-reporting-aggregator)
-7 tests. Merge Playwright/Jest/JUnit results.
-
-`TypeScript` `CLI`
-
-</td>
-</tr>
-<tr>
-<td width="33%">
-
-#### [docker-test-environments](https://github.com/mustafaautomation/docker-test-environments)
-4 environments: Postgres, full-stack, Redis, MongoDB.
-
-`Docker Compose`
-
-</td>
-<td width="33%">
-
-#### [maestro-mobile-testing](https://github.com/mustafaautomation/maestro-mobile-testing)
-7 YAML flows. Modern mobile testing for Android/iOS.
-
-`Maestro` `YAML`
-
-</td>
-<td width="33%">
-
-#### [appium-mobile-framework](https://github.com/mustafaautomation/appium-mobile-framework)
-7 tests. Cross-platform POM, gesture helpers.
-
-`Appium 2.0` `Java` `TestNG`
-
-</td>
-</tr>
-<tr>
-<td width="33%">
-
-#### [playwright-api-testing](https://github.com/mustafaautomation/playwright-api-testing)
-14 tests. API testing without browser.
-
-`Playwright` `APIRequestContext`
-
-</td>
-<td width="33%">
-
-#### [ai-requirements-analyzer](https://github.com/mustafaautomation/ai-requirements-analyzer)
-11 tests. PRDs → structured test cases via LLM.
-
-`TypeScript` `AI` `CLI`
-
-</td>
-<td width="33%">
-</td>
-</tr>
-</table>
-
-### QA Infrastructure & Tools
-
-<table>
-<tr>
-<td width="33%">
-
-#### [test-data-factory](https://github.com/mustafaautomation/test-data-factory)
-28 tests. Traits, sequences, associations.
-
-`TypeScript` `faker`
-
-</td>
-<td width="33%">
-
-#### [flaky-test-detective](https://github.com/mustafaautomation/flaky-test-detective)
-60 tests. Pattern analysis, quarantine.
-
-`TypeScript` `SQLite` `v2.0.0`
-
-</td>
-<td width="33%">
-
-#### [log-analyzer-cli](https://github.com/mustafaautomation/log-analyzer-cli)
-15 tests. Error grouping, pattern detection.
-
-`TypeScript` `CLI`
-
-</td>
-</tr>
-<tr>
-<td width="33%">
-
-#### [env-config-validator](https://github.com/mustafaautomation/env-config-validator)
-20 tests. .env schema validation, 7 types.
-
-`TypeScript` `CLI`
-
-</td>
-<td width="33%">
-
-#### [n8n-enterprise-workflows](https://github.com/mustafaautomation/n8n-enterprise-workflows)
-7 workflows. CI alerts, AI PR review, standup bot.
-
-`n8n` `Claude API` `Slack`
-
-</td>
-<td width="33%">
-
-#### [ci-pipeline-templates](https://github.com/mustafaautomation/ci-pipeline-templates)
-7 templates. Node, Python, Java, .NET, Rust, Playwright.
-
-`GitHub Actions` `Multi-stack`
-
-</td>
-</tr>
-<tr>
-<td width="33%">
-
-#### [qa-dash](https://github.com/mustafaautomation/qa-dash)
-44 tests. Aggregate results from 6 frameworks.
-
-`TypeScript` `CLI` `v2.0.0`
-
-</td>
-<td width="33%">
-
-#### [qa-metrics-dashboard](https://github.com/mustafaautomation/qa-metrics-dashboard)
-Real-time metrics. Pass rate, trends, coverage.
-
-`Express` `JavaScript` `v2.0.0`
-
-</td>
-<td width="33%">
-</td>
-</tr>
-</table>
-
----
-
-## Tech Stack
-
-<p>
-  <img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-f7df1e?style=flat-square&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Rust-DEA584?style=flat-square&logo=rust&logoColor=white" />
-</p>
-<p>
-  <img src="https://img.shields.io/badge/Playwright-45ba4b?style=flat-square&logo=playwright&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cypress-17202c?style=flat-square&logo=cypress&logoColor=white" />
-  <img src="https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white" />
-  <img src="https://img.shields.io/badge/k6-7d64ff?style=flat-square&logo=k6&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pact-7B4EA4?style=flat-square" />
-  <img src="https://img.shields.io/badge/Robot%20Framework-00B0D8?style=flat-square" />
-</p>
-<p>
-  <img src="https://img.shields.io/badge/Claude%20API-FF6B35?style=flat-square" />
-  <img src="https://img.shields.io/badge/MCP%20Servers-FF6B35?style=flat-square" />
-  <img src="https://img.shields.io/badge/n8n-FF6D5A?style=flat-square&logo=n8n&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088ff?style=flat-square&logo=github-actions&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ed?style=flat-square&logo=docker&logoColor=white" />
-</p>
-
----
-
-## By The Numbers
-
-| Metric | Value |
-|--------|-------|
-| Public Repos | 44+ |
-| Languages | TypeScript, JavaScript, Java, C#, Python, Rust |
-| Test Frameworks | Playwright, Cypress, Selenium, Robot, Appium, Maestro, Jest, Vitest, JUnit, NUnit, k6 |
-| AI Integrations | Claude API, MCP Servers, Claude Code Skills, n8n |
-| All repos | Production-grade with CI, tests, Docker, and documentation |
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mustafaautomation&theme=github-dark-blue&hide_border=true" height="150" />
-</p>
-
----
-
-<p align="center">
-  <a href="https://quvantic.com">
-    <img src="https://img.shields.io/badge/Quvantic-Visit%20Website-2D7FF9?style=for-the-badge" />
-  </a>
-  <a href="https://www.upwork.com/agencies/1485310266795913216/">
-    <img src="https://img.shields.io/badge/Hire%20Us%20on%20Upwork-14a800?style=for-the-badge&logo=upwork&logoColor=white" />
-  </a>
-</p>
+# Muhammad Mustafa
+
+QA Lead at [respond.io](https://respond.io). I work on test automation, API and mobile testing, and release quality.
+
+## Experience
+
+- **respond.io**: QA Lead (Nov 2023 – present); joined as Software Test Engineer in Dec 2022
+- **10Pearls**: Test Engineer, then Senior Test Engineer (Jan 2021 – Dec 2022)
+- **Creative Chaos** (Stack Labs): Associate Software QA Engineer, then Software QA Engineer (Jul 2019 – Jan 2021)
+
+## About these repos
+
+The repositories here are my public portfolio: personal test-automation frameworks and small tools, built mostly in 2026. They run against public demo sites and APIs, not against any employer's systems, and they are separate from my work at respond.io. Quvantic is the name I publish these portfolio projects under.
+
+Good places to start:
+
+- [api-testing-suite](https://github.com/mustafaautomation/api-testing-suite): REST API tests in TypeScript with Jest, SuperTest and Zod schema checks, run nightly in GitHub Actions
+- [playwright-enterprise-framework](https://github.com/mustafaautomation/playwright-enterprise-framework): Playwright + TypeScript UI framework with page objects, fixtures, accessibility, visual and Web Vitals checks
+- [contract-testing-pact](https://github.com/mustafaautomation/contract-testing-pact): consumer-driven contract tests with Pact, provider verification and a Pact Broker setup
+- [performance-testing-k6](https://github.com/mustafaautomation/performance-testing-k6): k6 smoke, load, stress, spike and soak scripts with thresholds
+- [llm-testing-toolkit](https://github.com/mustafaautomation/llm-testing-toolkit): evaluators for LLM output (hallucination, quality, regression, toxicity)
+- [selenium-java-framework](https://github.com/mustafaautomation/selenium-java-framework): Selenium 4 + TestNG with page objects, parallel runs and Allure
+
+## Portfolio by area
+
+**UI automation**
+- [playwright-enterprise-framework](https://github.com/mustafaautomation/playwright-enterprise-framework): Playwright, TypeScript
+- [selenium-java-framework](https://github.com/mustafaautomation/selenium-java-framework): Selenium 4, Java, TestNG
+- [cypress-bdd-starter](https://github.com/mustafaautomation/cypress-bdd-starter): Cypress, Cucumber, TypeScript
+- [robot-framework-enterprise](https://github.com/mustafaautomation/robot-framework-enterprise): Robot Framework, SeleniumLibrary, RequestsLibrary
+- [dotnet-playwright-framework](https://github.com/mustafaautomation/dotnet-playwright-framework): Playwright for .NET, NUnit (C#)
+- [specflow-bdd-framework](https://github.com/mustafaautomation/specflow-bdd-framework): SpecFlow, Selenium (C#)
+
+**API testing**
+- [api-testing-suite](https://github.com/mustafaautomation/api-testing-suite): Jest, SuperTest, Zod
+- [playwright-api-testing](https://github.com/mustafaautomation/playwright-api-testing): Playwright APIRequestContext
+- [restassured-api-testing](https://github.com/mustafaautomation/restassured-api-testing): REST Assured, JUnit 5, Java
+- [graphql-testing-suite](https://github.com/mustafaautomation/graphql-testing-suite): GraphQL schema and response checks
+- [api-mock-server](https://github.com/mustafaautomation/api-mock-server) and [webhook-tester](https://github.com/mustafaautomation/webhook-tester): mocking and webhook capture/replay
+
+**Contract testing**
+- [contract-testing-pact](https://github.com/mustafaautomation/contract-testing-pact): Pact consumer and provider tests
+- [schema-drift-detector](https://github.com/mustafaautomation/schema-drift-detector): flags breaking changes between API schema versions
+
+**Performance and resilience**
+- [performance-testing-k6](https://github.com/mustafaautomation/performance-testing-k6): k6
+- [chaos-testing-toolkit](https://github.com/mustafaautomation/chaos-testing-toolkit): proxy that injects latency, errors and timeouts
+- [rust-load-tester](https://github.com/mustafaautomation/rust-load-tester): small HTTP load-testing CLI in Rust
+
+**Mobile**
+- [appium-mobile-framework](https://github.com/mustafaautomation/appium-mobile-framework): Appium 2, Java, Android and iOS
+- [maestro-mobile-testing](https://github.com/mustafaautomation/maestro-mobile-testing): Maestro YAML flows
+
+**AI and LLM testing**
+- [llm-testing-toolkit](https://github.com/mustafaautomation/llm-testing-toolkit): LLM output evaluators
+- [ai-testgen](https://github.com/mustafaautomation/ai-testgen): generates Playwright and Gherkin tests from PRDs, OpenAPI specs and user stories
+- [agentic-test-runner](https://github.com/mustafaautomation/agentic-test-runner), [ai-test-orchestrator](https://github.com/mustafaautomation/ai-test-orchestrator), [ai-requirements-analyzer](https://github.com/mustafaautomation/ai-requirements-analyzer): LLM-assisted test generation experiments
+- [mcp-server-toolkit](https://github.com/mustafaautomation/mcp-server-toolkit), [ai-code-reviewer](https://github.com/mustafaautomation/ai-code-reviewer), [claude-code-skills](https://github.com/mustafaautomation/claude-code-skills): tooling for AI assistants
+
+**Accessibility, visual and security**
+- [a11y-audit-engine](https://github.com/mustafaautomation/a11y-audit-engine): axe-core + Playwright WCAG checks
+- [visual-regression-toolkit](https://github.com/mustafaautomation/visual-regression-toolkit): screenshot pixel diffs
+- [security-testing-pipeline](https://github.com/mustafaautomation/security-testing-pipeline): Semgrep, npm audit and secret scanning with SARIF output
+
+**CI tooling, test data and reporting**
+- [ci-pipeline-templates](https://github.com/mustafaautomation/ci-pipeline-templates): reusable GitHub Actions workflows
+- [docker-test-environments](https://github.com/mustafaautomation/docker-test-environments): Docker Compose stacks for test dependencies
+- [flaky-test-detective](https://github.com/mustafaautomation/flaky-test-detective), [test-retry-analyzer](https://github.com/mustafaautomation/test-retry-analyzer): flaky-test detection
+- [test-impact-analyzer](https://github.com/mustafaautomation/test-impact-analyzer): runs only the tests affected by a change
+- [qa-dash](https://github.com/mustafaautomation/qa-dash), [test-reporting-aggregator](https://github.com/mustafaautomation/test-reporting-aggregator), [test-observability-platform](https://github.com/mustafaautomation/test-observability-platform): merged test reports
+- [test-data-factory](https://github.com/mustafaautomation/test-data-factory): typed test-data builders
+- [n8n-enterprise-workflows](https://github.com/mustafaautomation/n8n-enterprise-workflows): n8n workflows for CI alerts and triage
+
+Older repos from 2022 are take-home tasks from job applications.
