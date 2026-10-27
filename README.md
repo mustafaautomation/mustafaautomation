@@ -10,7 +10,7 @@ QA Lead at [respond.io](https://respond.io). I work on test automation, API and 
 
 ## About these repos
 
-The repositories here are my public portfolio: personal test-automation frameworks and small tools, built mostly in 2026. They run against public demo sites and APIs, not against any employer's systems, and they are separate from my work at respond.io. Quvantic is the name I publish these portfolio projects under.
+The repositories here are my public portfolio: personal test-automation frameworks and small tools, built mostly in 2026. They run against public demo sites and APIs, not against any employer's systems, and they are separate from my work at respond.io. Quvantic is the agency I founded.
 
 Good places to start:
 
