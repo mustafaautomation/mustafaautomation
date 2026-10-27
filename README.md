@@ -2,6 +2,8 @@
 
 QA Lead at [respond.io](https://respond.io). I work on test automation, API and mobile testing, and release quality.
 
+Personal site: [mustafa.quvantic.com](https://mustafa.quvantic.com)
+
 ## Experience
 
 - **respond.io**: QA Lead (Nov 2023 – present); joined as Software Test Engineer in Dec 2022
