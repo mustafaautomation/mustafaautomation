@@ -1,10 +1,31 @@
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 720px)" srcset="./assets/hero-mobile-dark.svg">
+  <source media="(prefers-color-scheme: light) and (max-width: 720px)" srcset="./assets/hero-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
+  <img alt="Diagram of a CI pipeline: commit, build, green API and UI gates, a red gate, and a test trace." src="./assets/hero-light.svg">
+</picture>
+
 # Muhammad Mustafa
 
 QA Lead at [respond.io](https://respond.io). I work on test automation, API and mobile testing, and release quality.
 
 Personal site: [mustafa.quvantic.com](https://mustafa.quvantic.com)
 
+## Day-to-day work
+
 My day-to-day work at respond.io happens in private repositories on a separate work account, [@mustafarocketbots](https://github.com/mustafarocketbots). That code isn't public; only the activity shows there.
+
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/mustafarocketbots">
+        <strong>Day-to-day work activity (private repos, respond.io work account)</strong><br>
+        <img alt="Day-to-day work activity (private repos, respond.io work account)" src="https://ghchart.rshah.org/1c7a49/mustafarocketbots">
+      </a>
+    </td>
+  </tr>
+</table>
 
 ## Experience
 
@@ -16,18 +37,74 @@ My day-to-day work at respond.io happens in private repositories on a separate w
 
 The repositories here are my public portfolio: personal test-automation frameworks and small tools, built mostly in 2026. They run against public demo sites and APIs, not against any employer's systems, and they are separate from my work at respond.io. Quvantic is the agency I founded.
 
-Good places to start:
+## Selected repositories
 
-- [api-testing-suite](https://github.com/mustafaautomation/api-testing-suite): REST API tests in TypeScript with Jest, SuperTest and Zod schema checks, run nightly in GitHub Actions
-- [playwright-enterprise-framework](https://github.com/mustafaautomation/playwright-enterprise-framework): Playwright + TypeScript UI framework with page objects, fixtures, accessibility, visual and Web Vitals checks
-- [contract-testing-pact](https://github.com/mustafaautomation/contract-testing-pact): consumer-driven contract tests with Pact, provider verification and a Pact Broker setup
-- [performance-testing-k6](https://github.com/mustafaautomation/performance-testing-k6): k6 smoke, load, stress, spike and soak scripts with thresholds
-- [llm-testing-toolkit](https://github.com/mustafaautomation/llm-testing-toolkit): evaluators for LLM output (hallucination, quality, regression, toxicity)
-- [selenium-java-framework](https://github.com/mustafaautomation/selenium-java-framework): Selenium 4 + TestNG with page objects, parallel runs and Allure
+The badge is the workflow status on the default branch.
+
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/mustafaautomation/api-testing-suite"><strong>api-testing-suite</strong></a><br>
+      REST API tests in TypeScript with Jest, SuperTest and Zod schema checks, run nightly in GitHub Actions.<br>
+      <a href="https://github.com/mustafaautomation/api-testing-suite/actions/workflows/api-tests.yml"><img alt="API Tests workflow status" src="https://github.com/mustafaautomation/api-testing-suite/actions/workflows/api-tests.yml/badge.svg"></a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/mustafaautomation/playwright-enterprise-framework"><strong>playwright-enterprise-framework</strong></a><br>
+      Playwright + TypeScript UI framework with page objects, fixtures, accessibility, visual and Web Vitals checks.<br>
+      <a href="https://github.com/mustafaautomation/playwright-enterprise-framework/actions/workflows/regression.yml"><img alt="Regression Tests workflow status" src="https://github.com/mustafaautomation/playwright-enterprise-framework/actions/workflows/regression.yml/badge.svg"></a>
+      <a href="https://github.com/mustafaautomation/playwright-enterprise-framework/actions/workflows/smoke.yml"><img alt="Smoke Tests workflow status" src="https://github.com/mustafaautomation/playwright-enterprise-framework/actions/workflows/smoke.yml/badge.svg"></a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/mustafaautomation/grpc-messaging-tests"><strong>grpc-messaging-tests</strong></a><br>
+      Go gRPC + NATS JetStream order service with tests for idempotency, redelivery, dead-lettering, streaming and deadlines.<br>
+      <a href="https://github.com/mustafaautomation/grpc-messaging-tests/actions/workflows/ci.yml"><img alt="CI workflow status" src="https://github.com/mustafaautomation/grpc-messaging-tests/actions/workflows/ci.yml/badge.svg"></a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/mustafaautomation/appium-mobile-framework"><strong>appium-mobile-framework</strong></a><br>
+      Appium 2, Java, Android and iOS.<br>
+      <a href="https://github.com/mustafaautomation/appium-mobile-framework/actions/workflows/ci.yml"><img alt="CI workflow status" src="https://github.com/mustafaautomation/appium-mobile-framework/actions/workflows/ci.yml/badge.svg"></a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/mustafaautomation/contract-testing-pact"><strong>contract-testing-pact</strong></a><br>
+      Consumer-driven contract tests with Pact, provider verification and a Pact Broker setup.<br>
+      <a href="https://github.com/mustafaautomation/contract-testing-pact/actions/workflows/contract-tests.yml"><img alt="Contract Tests workflow status" src="https://github.com/mustafaautomation/contract-testing-pact/actions/workflows/contract-tests.yml/badge.svg"></a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/mustafaautomation/supabase-mcp-server"><strong>supabase-mcp-server</strong></a><br>
+      MCP server with read-mostly, RLS-aware Supabase/Postgres tools for Claude, tested against a local Supabase stack and plain Postgres.<br>
+      <a href="https://github.com/mustafaautomation/supabase-mcp-server/actions/workflows/ci.yml"><img alt="CI workflow status" src="https://github.com/mustafaautomation/supabase-mcp-server/actions/workflows/ci.yml/badge.svg"></a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/mustafaautomation/rag-assistant-tests"><strong>rag-assistant-tests</strong></a><br>
+      Small RAG assistant with recall@k on a hand-labelled set, answer grounding checks and offline CI gates (pgvector optional).<br>
+      <a href="https://github.com/mustafaautomation/rag-assistant-tests/actions/workflows/ci.yml"><img alt="CI workflow status" src="https://github.com/mustafaautomation/rag-assistant-tests/actions/workflows/ci.yml/badge.svg"></a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/mustafaautomation/selenium-java-framework"><strong>selenium-java-framework</strong></a><br>
+      Selenium 4 + TestNG with page objects, parallel runs and Allure.<br>
+      <a href="https://github.com/mustafaautomation/selenium-java-framework/actions/workflows/e2e-tests.yml"><img alt="E2E Tests workflow status" src="https://github.com/mustafaautomation/selenium-java-framework/actions/workflows/e2e-tests.yml/badge.svg"></a>
+    </td>
+  </tr>
+</table>
 
 ## Portfolio by area
 
 **UI automation**
+
 - [playwright-enterprise-framework](https://github.com/mustafaautomation/playwright-enterprise-framework): Playwright, TypeScript
 - [selenium-java-framework](https://github.com/mustafaautomation/selenium-java-framework): Selenium 4, Java, TestNG
 - [cypress-bdd-starter](https://github.com/mustafaautomation/cypress-bdd-starter): Cypress, Cucumber, TypeScript
@@ -36,37 +113,47 @@ Good places to start:
 - [specflow-bdd-framework](https://github.com/mustafaautomation/specflow-bdd-framework): SpecFlow, Selenium (C#)
 
 **API testing**
+
 - [api-testing-suite](https://github.com/mustafaautomation/api-testing-suite): Jest, SuperTest, Zod
 - [playwright-api-testing](https://github.com/mustafaautomation/playwright-api-testing): Playwright APIRequestContext
 - [restassured-api-testing](https://github.com/mustafaautomation/restassured-api-testing): REST Assured, JUnit 5, Java
 - [graphql-testing-suite](https://github.com/mustafaautomation/graphql-testing-suite): GraphQL schema and response checks
 - [api-mock-server](https://github.com/mustafaautomation/api-mock-server) and [webhook-tester](https://github.com/mustafaautomation/webhook-tester): mocking and webhook capture/replay
+- [grpc-messaging-tests](https://github.com/mustafaautomation/grpc-messaging-tests): Go gRPC + NATS JetStream order service with tests for idempotency, redelivery, dead-lettering, streaming and deadlines
 
 **Contract testing**
+
 - [contract-testing-pact](https://github.com/mustafaautomation/contract-testing-pact): Pact consumer and provider tests
 - [schema-drift-detector](https://github.com/mustafaautomation/schema-drift-detector): flags breaking changes between API schema versions
 
 **Performance and resilience**
-- [performance-testing-k6](https://github.com/mustafaautomation/performance-testing-k6): k6
+
+- [performance-testing-k6](https://github.com/mustafaautomation/performance-testing-k6): k6 smoke, load, stress, spike and soak scripts with thresholds
 - [chaos-testing-toolkit](https://github.com/mustafaautomation/chaos-testing-toolkit): proxy that injects latency, errors and timeouts
 - [rust-load-tester](https://github.com/mustafaautomation/rust-load-tester): small HTTP load-testing CLI in Rust
 
 **Mobile**
+
 - [appium-mobile-framework](https://github.com/mustafaautomation/appium-mobile-framework): Appium 2, Java, Android and iOS
 - [maestro-mobile-testing](https://github.com/mustafaautomation/maestro-mobile-testing): Maestro YAML flows
 
 **AI and LLM testing**
-- [llm-testing-toolkit](https://github.com/mustafaautomation/llm-testing-toolkit): LLM output evaluators
+
+- [llm-testing-toolkit](https://github.com/mustafaautomation/llm-testing-toolkit): evaluators for LLM output (hallucination, quality, regression, toxicity)
 - [ai-testgen](https://github.com/mustafaautomation/ai-testgen): generates Playwright and Gherkin tests from PRDs, OpenAPI specs and user stories
 - [agentic-test-runner](https://github.com/mustafaautomation/agentic-test-runner), [ai-test-orchestrator](https://github.com/mustafaautomation/ai-test-orchestrator), [ai-requirements-analyzer](https://github.com/mustafaautomation/ai-requirements-analyzer): LLM-assisted test generation experiments
 - [mcp-server-toolkit](https://github.com/mustafaautomation/mcp-server-toolkit), [ai-code-reviewer](https://github.com/mustafaautomation/ai-code-reviewer), [claude-code-skills](https://github.com/mustafaautomation/claude-code-skills): tooling for AI assistants
+- [rag-assistant-tests](https://github.com/mustafaautomation/rag-assistant-tests): small RAG assistant with recall@k on a hand-labelled set, answer grounding checks and offline CI gates (pgvector optional)
+- [supabase-mcp-server](https://github.com/mustafaautomation/supabase-mcp-server): MCP server with read-mostly, RLS-aware Supabase/Postgres tools for Claude, tested against a local Supabase stack and plain Postgres
 
 **Accessibility, visual and security**
+
 - [a11y-audit-engine](https://github.com/mustafaautomation/a11y-audit-engine): axe-core + Playwright WCAG checks
 - [visual-regression-toolkit](https://github.com/mustafaautomation/visual-regression-toolkit): screenshot pixel diffs
 - [security-testing-pipeline](https://github.com/mustafaautomation/security-testing-pipeline): Semgrep, npm audit and secret scanning with SARIF output
 
 **CI tooling, test data and reporting**
+
 - [ci-pipeline-templates](https://github.com/mustafaautomation/ci-pipeline-templates): reusable GitHub Actions workflows
 - [docker-test-environments](https://github.com/mustafaautomation/docker-test-environments): Docker Compose stacks for test dependencies
 - [flaky-test-detective](https://github.com/mustafaautomation/flaky-test-detective), [test-retry-analyzer](https://github.com/mustafaautomation/test-retry-analyzer): flaky-test detection
