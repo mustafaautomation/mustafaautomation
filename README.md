@@ -4,6 +4,8 @@ QA Lead at [respond.io](https://respond.io). I work on test automation, API and 
 
 Personal site: [mustafa.quvantic.com](https://mustafa.quvantic.com)
 
+My day-to-day work at respond.io happens in private repositories on a separate work account, [@mustafarocketbots](https://github.com/mustafarocketbots). That code isn't public; only the activity shows there.
+
 ## Experience
 
 - **respond.io**: QA Lead (Nov 2023 – present); joined as Software Test Engineer in Dec 2022
