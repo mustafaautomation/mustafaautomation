@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 232" width="920" height="232" role="img" aria-labelledby="title desc">
+  <title id="title">CI pipeline</title>
+  <desc id="desc">A diagram of a CI pipeline. Commit and build lead to green API and UI gates, then a red gate. A test trace runs underneath. Nothing here is a live result.</desc>
+  <style>
+    .flow {
+      stroke-dasharray: 4 8;
+      animation: flow 1.6s linear infinite;
+    }
+    @keyframes flow {
+      to { stroke-dashoffset: -48; }
+    }
+    .static-trace { display: none; }
+    @media (prefers-reduced-motion: reduce) {
+      .flow { animation: none; stroke-dasharray: none; }
+      .motion { display: none; }
+      .static-trace { display: inline; }
+    }
+  </style>
+  <rect x="0.5" y="0.5" width="919" height="231" rx="18" fill="#09100D" stroke="#24302A"/>
+  <line x1="36" y1="40" x2="58" y2="40" stroke="#C4A976" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="66" y="44" fill="#C4A976" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" letter-spacing="2.4">QA LEAD</text>
+  <circle cx="806" cy="36" r="3.5" fill="#9AD0A6"/>
+  <text x="814" y="40" fill="#8F988F" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">pass</text>
+  <circle cx="852" cy="36" r="3.5" fill="#E08A7A"/>
+  <text x="860" y="40" fill="#8F988F" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">fail</text>
+  <line x1="96" y1="108" x2="856" y2="108" stroke="#24362E" stroke-width="2" stroke-linecap="round"/>
+  <line class="flow" x1="96" y1="108" x2="666" y2="108" stroke="#9AD0A6" stroke-width="2" stroke-linecap="round"/>
+  <line x1="666" y1="108" x2="856" y2="108" stroke="#E08A7A" stroke-width="2" stroke-linecap="round" opacity="0.95"/>
+  <circle class="motion" cy="108" r="3.5" fill="#9AD0A6">
+    <animate attributeName="cx" dur="6s" repeatCount="indefinite" values="96;666;666" keyTimes="0;0.82;1" calcMode="linear"/>
+    <animate attributeName="opacity" dur="6s" repeatCount="indefinite" values="0;1;1;0" keyTimes="0;0.06;0.78;0.9" calcMode="linear"/>
+  </circle>
+  <circle cx="96" cy="108" r="22" fill="#09100D" stroke="#24362E" stroke-width="1.5"/>
+  <circle cx="96" cy="108" r="6" fill="none" stroke="#D9D3C5" stroke-width="2"/>
+  <circle cx="96" cy="108" r="2.4" fill="#D9D3C5"/>
+  <text x="96" y="158" text-anchor="middle" fill="#E9E5D9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">commit</text>
+  <circle cx="286" cy="108" r="22" fill="#09100D" stroke="#24362E" stroke-width="1.5"/>
+  <path d="M278 102H294M280 108H292M282 114H290" fill="none" stroke="#C4A976" stroke-width="2" stroke-linecap="round"/>
+  <text x="286" y="158" text-anchor="middle" fill="#E9E5D9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">build</text>
+  <circle cx="476" cy="108" r="22" fill="#13281E" stroke="#9AD0A6" stroke-width="1.5"/>
+  <path d="M469 109L474 114L484 102" fill="none" stroke="#9AD0A6" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="476" y="158" text-anchor="middle" fill="#E9E5D9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">api</text>
+  <circle cx="666" cy="108" r="22" fill="#13281E" stroke="#9AD0A6" stroke-width="1.5"/>
+  <path d="M659 109L664 114L674 102" fill="none" stroke="#9AD0A6" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="666" y="158" text-anchor="middle" fill="#E9E5D9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">ui</text>
+  <circle cx="856" cy="108" r="22" fill="#2C1916" stroke="#E08A7A" stroke-width="1.5"/>
+  <path d="M850 102L862 114M862 102L850 114" fill="none" stroke="#E08A7A" stroke-width="2.25" stroke-linecap="round"/>
+  <text x="856" y="158" text-anchor="middle" fill="#E9E5D9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">gate</text>
+  <text x="36" y="186" fill="#8F988F" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.6">TRACE</text>
+  <rect x="100" y="176" width="784" height="7" rx="3.5" fill="#15211C"/>
+  <rect x="100" y="196" width="784" height="7" rx="3.5" fill="#15211C"/>
+  <rect class="static-trace" x="100" y="176" width="420" height="7" rx="3.5" fill="#9AD0A6"/>
+  <rect class="static-trace" x="100" y="196" width="168" height="7" rx="3.5" fill="#E08A7A"/>
+  <rect class="motion" x="100" y="176" width="420" height="7" rx="3.5" fill="#9AD0A6">
+    <animate attributeName="width" dur="7s" repeatCount="indefinite" values="96;560;380;96" keyTimes="0;0.45;0.75;1" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/>
+  </rect>
+  <rect class="motion" x="100" y="196" width="168" height="7" rx="3.5" fill="#E08A7A">
+    <animate attributeName="width" dur="7s" begin="0.4s" repeatCount="indefinite" values="40;220;120;40" keyTimes="0;0.5;0.78;1" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/>
+  </rect>
+</svg>
