@@ -8,7 +8,7 @@
 
 # Muhammad Mustafa
 
-QA Lead at [respond.io](https://respond.io). I work on test automation, API and mobile testing, and release quality.
+FDE at [respond.io](https://respond.io). I work on test automation, API and mobile testing, and release quality.
 
 Personal site: [mustafa.quvantic.com](https://mustafa.quvantic.com)
 
